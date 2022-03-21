@@ -8,10 +8,11 @@ dependencies:
   - matplotlib=3.1.1
   - pandas=0.24.2
   - pandas-datareader=0.8.1
-  - pytables=3.6.1
+  - pytables
   - openpyxl=3.0.1
   - xlrd=1.2.0
   - pyomo=5.6.7
   - glpk
   - psutil=5.6.5
   - pyutilib=5.8.0
+  - snappy # added due to dll import error fix https://github.com/tum-ens/urbs/issues/294
